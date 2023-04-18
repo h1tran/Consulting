@@ -1,82 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <title>Tara Nguy Consulting</title>
-    <style type=text/css>
-        body {
-            height: 300vh;
-            margin-top: 80px;
-            padding: 30px;
-            background-size: cover;
-            font-family: sans-serif;
-            background-image: linear-gradient(#a9d0fc, rgb(95, 111, 249))
-        }
-
-        header {
-            background-color: rgb(95, 111, 249);
-            position: fixed;
-            left: 0;
-            right: 0;
-            top: 5px;
-            height: 30px;
-            display: flex;
-            align-items: center;
-            box-shadow: 0 0 25px 0 black;
-        }
-
-        header * {
-            display: inline;
-        }
-
-        header li {
-            margin: 20px;
-        }
-
-        header li a {
-            color: white;
-            text-decoration: none;
-        }
-    </style>
-</head>
-
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="Services.html">Services</a>
-                </li>
-                <li>
-                    <a href="Contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-</body>
-
-<body>
-    <section>
-        <h1>Contact Us</h1>
-    </section>
-    <form method="post" action="/email_page.php">
-        Name: <input type="text" name="name" /> <br />
-        Email: <input type="text" name="email" /> <br />
-        Contact Number: <input type="text" name="contactnum" /> <br />
-        Enquiry:<textarea rows="4" cols="25"></textarea><br />
-        <p>How do you identify?</p>
-        <input type="radio" id="male" name="gender" value="Male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="Female">
-        <label for="html">Female</label><br>
-        <input type="radio" id="other" name="gender" value="Other">
-        <label for="html">Other</label><br>
-        <input type="submit" value="submit">
-    </form>
-    <a href="mailto: tnguyconsulting@gmail.com? subject = Enquriy&body = Message"> Send Email</a>
-</body>
-
+<html lang = "en">
+    <head>
+        <title>Tara Nguy Consulting</title>
+        <style type=text/css>
+            body   
+        {  
+        height: 300vh;  
+        margin-top: 80px;  
+        padding: 30px;  
+        background-size: cover;  
+        font-family: sans-serif;  
+        background-image: linear-gradient(#a9d0fc,rgb(95, 111, 249)) 
+        }  
+        header {  
+        background-color: rgb(95, 111, 249);  
+        position: fixed;  
+        left: 0;  
+        right: 0;  
+        top: 5px;  
+        height: 30px;  
+        display: flex;  
+        align-items: center;  
+        box-shadow: 0 0 25px 0 black;  
+        }  
+        header * {  
+        display: inline;  
+        }  
+        header li {  
+        margin: 20px;  
+        }  
+        header li a {  
+        color: white;  
+        text-decoration: none;  
+        }  
+        </style>
+    </head>
+        <body>
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href ="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href = "Services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href = "Contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </body>
+    <body>
+        <section>
+            <h1>Contact Us</h1>
+        </section>
+        <form method="post" action="/email_page.php">
+            Name: <input type="text" name="name"/> <br/>  
+            Email:  <input type="text" name="email"/> <br/>  
+            Contact Number: <input type="text" name="contactnum"/> <br/>  
+            Enquiry:<textarea rows="4" cols="25"></textarea><br/>  
+            <p>How do you identify?</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="html">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="html">Other</label><br>
+            <input type = "submit" value="submit">
+        </form>
+        <a href = "mailto: tnguyconsulting@gmail.com? subject = Enquriy&body = Message"> Send Email</a>
+    </body>
 </html>
