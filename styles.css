@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  background-image: linear-gradient(#a9d0fc, rgb(95, 111, 249))
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(95, 111, 249);
+  position: sticky;
+  left: 0;
+  right: 0;
+  height: 70px;
+  box-shadow: 0 0 25px 0 black;
+}
+
+header {
+  border-radius: none;
+  box-shadow: none;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 100px;
+}
+
+header li a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  line-height: 32px;
+}
+
+button, input[type=submit] {
+  padding: 20px !important;
+}
+
+button {
+  margin: 10px 0;
+  margin-left: 10px;
+}
+
+.page-content-container {
+  padding: 30px;
+  justify-content: center;
+}
+
+.main-page-content > * {
+  padding: 10px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.service-title {
+  padding: 20px;
+  padding-bottom: 60px;
+}
+
+.circle {
+  height: 250px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 15px 15px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.circle > p {
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+}
