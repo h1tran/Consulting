@@ -7,11 +7,9 @@
 
 body, html {
   height: 100vh;
-  overflow: hidden;
 }
 
 body {
-  background-image: linear-gradient(#a9d0fc, rgb(95, 111, 249))
 }
 
 header {
@@ -24,6 +22,9 @@ header {
   right: 0;
   height: 70px;
   box-shadow: 0 0 25px 0 black;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 header {
@@ -44,6 +45,12 @@ header li a {
   text-decoration: none;
 }
 
+header li a:hover, header li a:active{
+  color: rgb(40, 40, 40);
+  text-decoration: none;
+  transition: .25s ease-in-out all;
+}
+
 p {
   line-height: 32px;
 }
@@ -58,8 +65,11 @@ button {
 }
 
 .page-content-container {
+  height: 100%;
   padding: 30px;
+  position: sticky;
   justify-content: center;
+  background-image: linear-gradient(#a9d0fc, rgb(95, 111, 249))
 }
 
 .main-page-content > * {
